@@ -1,9 +1,40 @@
 
-{
-    "productoID": 3,
-    "nombreProducto": "BBBBBB",
-    "icono": null,
-    "precioProducto": 12.00,
-    "descripcion": "UUUU",
-    "campanias": null
-}
+const products = [
+    {
+        id: "1",
+        name: "ley 1",
+        description: "D1-1",
+        description2: "D2-1",
+        price:1000
+    },
+    {
+        id: "2",
+        name: "ley 2",
+        description: "D1-2",
+        description2: "D2-2",
+        price:500
+    },
+    {
+        id: "3",
+        name: "ley 3",
+        description: "D1-3",
+        description2: "D2-3",
+        price:700
+    },
+    {
+        id: "4",
+        name: "ley 4",
+        description: "D1-4",
+        description2: "D2-4",
+        price:600
+    },
+    {
+        id: "5",
+        name: "ley 5",
+        description: "D1-5",
+        description2: "D2-5",
+        price:400
+    },
+]
+
+export default products
